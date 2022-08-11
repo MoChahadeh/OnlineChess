@@ -26,6 +26,7 @@ class LocalGame extends React.Component {
         )
     }
 
+
     onSquareClicked = (rowIndex, colIndex) => {
 
         if(this.state.selectedSquare) {
